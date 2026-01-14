@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* @layer utilities {
+  .my-container {
+    @apply container px-40 py-6 mx-auto;
+  }
+} */
+
+@layer utilities {
+  .my-container {
+    @apply container mx-auto px-4 md:px-40 py-6;
+    width: 100%;
+  }
+}
